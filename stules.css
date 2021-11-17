@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+body{
+    max-width: 950px;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Comfortaa', cursive;
+    /*background-color: #CBF3F0;*/
+    /*background: repeating-linear-gradient(45deg, #CBF3F0, #CBF3F0 10px, #7DDCD3 10px, #7DDCD3 20px);
+*/
+  
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 600% 600%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a{
+    color: #2b2b2b;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(231, 231, 87);
+    text-decoration: none;
+}
+.me{
+    margin: auto;
+    padding-top: 190vh;
+    margin-bottom: 20vh;
+    font-weight: bold;
+}
+.fullscr{
+    max-width: 750px;
+    min-height: 100vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+
+}
+.fullscreen{
+    font-size: 110px;
+    padding-bottom: 0vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+.fullscreeninf {
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    font-size: 50px;
+}
+
+.ava {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.nazvanie {
+    padding-top: 10vh;
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: -5px -5px 0px #f09b2c;
+    background: radial-gradient(#E89119 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+  }
+
+.cartochka {
+    border-radius: 30px;
+    background-color: #ffffff5e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 15px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 40%);
+}
+
+.cartochka:hover{
+    animation: flycard 3s ease-in-out infinite;
+}
+@keyframes flycard {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+.card {
+    color: #0D302E;
+    border-radius: 30px;
+    max-width: 250px;
+    max-height: 350px;
+    padding: 30px 18px 30px;
+    background: none;
+    box-shadow: none;
+    transition: all .6s ease;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card:hover{
+    background-color: #ffffff27;
+}
+.info:hover{
+    background: none;
+}
+.info{
+    text-align: center;
+    background: none;
+    box-shadow: none;
+}
+
+.h2{
+    text-align: center;
+    font-family: 'Rubik One', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #f8bd70;
+    text-shadow: 1px 0 1px #23a6d5, 
+    0 1px 1px #23a6d5, 
+    -1px 0 1px #23a6d5, 
+    0 -1px 1px #23a6d5; 
+    display: table;
+    margin: 20px auto;    
+
+}
+ul {
+    margin-left: -5px;
+}
+li{
+    padding-bottom: 13px;
+}
+.prog{
+    text-align: center;    
+}
+.web{
+    text-align: center;
+}
+.tab{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.illustration{
+    text-align: center;
+}
+.skill {
+    margin-bottom: 25px;
+}
+.JVS{
+    max-width: 400px;
+}
+.datab {
+    max-width: 400px;
+    margin-left: 30px;
+}
+.social{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.pageend{
+    text-align: right ;
+}

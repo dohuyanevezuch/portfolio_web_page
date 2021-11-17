@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>dohuyanevezuch</title>
+  <link href="stules.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <header></header>
+  <div class="conteiner">
+
+    <div class="me">
+
+      <div class="fullscr">
+        <h2 class="h1 fullscreen">Hello!</h2>
+        <h2 class="h1 fullscreeninf">My name is Viktor.</h2>
+        <h2 class="h1 fullscreendop">This is my training webpage!</h2>
+        <script type="text/javascript">
+          $(document).ready(function(){
+             $("#menu").on("click","a", function (event) {
+                 event.preventDefault();
+                 var id  = $(this).attr('href'),
+                     top = $(id).offset().top;
+                 $('body,html').animate({scrollTop: top}, 1500);
+             });
+         });
+         </script>
+         
+         <nav id="menu">
+                 <a href="#jak1">About me</a> |
+                 <a href="#jak2">My Skill</a> |
+                 <a href="#jak3">Learning</a> |
+                 <a href="#jak4">My Social media</a>
+                 
+                 
+         </nav>
+      </div>
+
+
+        <p id="jak1"></p>
+        <h1 class="nazvanie title1">About me</h1>
+
+        <div class="cartochka inform">
+
+          <div class="card info">
+            <img src="Avatar.svg" alt="avatar" width="120" height="120" class="ava">
+            <h2>Hello</h2>
+            <p>My name is <b>Viktor</b>.</p>
+            <p>This is my training webpage!</p>
+          </div>
+          <div class="card hobbi">
+            <h2 class="h2 hoblist"><b>HOBBIES</b></h2>
+            <ul>
+              <li>Explore the IT field.</li>
+              <li>Coding.</li>
+              <li>Listen to music.</li>
+              <li>Play games.</li>
+              <li>Draw in a vector.</li>
+            </ul>
+          </div>
+
+          <div class="card outher">
+            <h2 class="h2 outherinf">Other</h2>
+            <p>Вот так вот бывает иногда да да да</p>
+          </div>
+          
+        </div>
+
+
+
+        <p id="jak2"></p>
+        <h1 class="nazvanie title2">My Skill</h1>
+
+        <div class="cartochka skill">
+          <div class="card prog">
+            <h2 class="h2 program">Prog</h2>
+            <p>Basic Knowledge:</p>
+            <table class="tab programmers">
+              <tr>
+                <td>Python</td> <td>Cpp</td>
+              </tr> 
+              <tr>
+                <td><img src="python_icon.svg" alt="python" width="70" height="70"></td> <td><img src="visualstudiocode.svg" alt="Studio"width="70" height="70"></td>
+              </tr>                   
+            </table>
+          </div>
+
+          <div class="card web">
+            <h2 class="h2 webp">Web</h2>
+
+            <p>I'm practicing now:</p>
+            <table class="tab webt">
+              <tr>
+                <td>Html</td> <td>CSS</td>
+              </tr> 
+              <tr>
+                <td><img src="html_icon.svg" alt="HTML" width="70" height="70"></td> <td><img src="css_icon.svg" alt="CSS"width="70" height="70"></td>
+              </tr>                   
+            </table>
+          </div>
+
+
+          <div class="card illustration">
+            <h2 class="h2 ill">Vector</h2>
+            <p>I draw a little bit in vector graphics.</p>
+            <p>An example of my work is my avatar</p>
+            <a href="https://google.com">More</a>
+          </div>
+        </div>
+
+        <p id="jak3"></p>
+        <h1 class="nazvanie title3">Learning</h1>
+
+        <div class="cartochka learning">
+          <div class="card JVS">
+            <h2 class="h2 jvscript">JavaScript</h2>
+          </div>
+          <div class="card datab">
+            <h2 class="h2 dateba">DataBase</h2>
+          </div>
+        </div>
+
+        <p id="jak4"></p>
+        <h1 class="nazvanie title4">My Social media</h1>
+
+        <div class="cartochka socmed">
+
+          <table class="social">
+            <!--<tr>
+              <td><h2>Instagram</h2></td> <td><h2>VK</h2></td> <td><h2>GitHub</h2></td> <td><h2>Telegram</h2></td>
+            </tr> 
+            <tr> -->
+              <td><a href="https://instagram.com/dohuyanevezuch"><img src="instagram_icon.svg" alt="INST" width="70" height="70"></td></a> 
+              <td><a href="https://vk.com/dohuyanevezuch"><img src="vk_icon.svg" alt="Studio"width="70" height="70"></td></a>
+              <td><a href="https://github.com/dohuyanevezuch"><img src="github_icon.svg" alt="INST" width="70" height="70"></td></a>
+              <td><a href="https://t.me/dohuyanevezuch"><img src="telegramicon.svg" alt="Studio"width="70" height="70"></td></a>
+            </tr>                   
+          </table>
+        </div>
+    </div>
+  </div>
+  <p class="pageend">@dohuyanevezuch 16-11-2021.</p>
+</body>
+
+</html>
+     

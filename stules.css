@@ -17,7 +17,7 @@ body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 600% 600%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+    padding-top: 0vh;
 }
 
 @keyframes gradient {
@@ -40,23 +40,23 @@ a:hover{
     color: rgb(231, 231, 87);
     text-decoration: none;
 }
-.me{
+/*.me{
     margin: auto;
     padding-top: 190vh;
     margin-bottom: 20vh;
     font-weight: bold;
-}
+}*/
 .fullscr{
     max-width: 750px;
     min-height: 100vh;
     justify-content: center;
     margin: auto;
-    margin-top: 30vh;
     display: flex;
     flex-direction: column;
     color: rgb(0, 0, 0);
 
 }
+
 .fullscreen{
     font-size: 110px;
     padding-bottom: 0vh;
